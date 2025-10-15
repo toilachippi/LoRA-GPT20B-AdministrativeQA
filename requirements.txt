@@ -1,0 +1,25 @@
+# Core dependencies
+torch>=2.1.0
+transformers>=4.42.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+peft>=0.11.1
+unsloth>=2024.6.1
+
+# Data processing
+datasets>=2.20.0
+pandas>=2.2.2
+tqdm>=4.66.4
+
+# Evaluation
+scikit-learn>=1.5.0
+
+# Optional: GPU utilities
+nvidia-ml-py3>=7.352.0
+
+# For running generation scripts
+sentencepiece>=0.2.0
+protobuf>=4.25.3
+
+# If using Jupyter/Colab
+ipython
